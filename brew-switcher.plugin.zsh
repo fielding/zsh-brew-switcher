@@ -5,5 +5,3 @@ else
   export ARCH="x86_64"
   eval "$(/usr/local/bin/brew shellenv)"
 fi
-
-zstyle ':prompt:*' arch '${ARCH}'
